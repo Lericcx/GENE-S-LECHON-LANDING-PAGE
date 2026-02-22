@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene's Lechon - Home</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inquiry.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="inquiry.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+    <nav class="landing-nav">
+    <div class="nav-container">
+        <!-- Top row: logo + cart + mobile button -->
+        <div class="nav-top-row">
+            <div class="logo">
+                <img src="GENE'S LOGO.jpg" alt="Gene's Lechon Logo">
+                <h1>Gene's <span>Lechon</span></h1>
+            </div>
+            <div class="nav-actions">
+                <button class="cart-icon" id="cartIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Bottom row: navigation links -->
+        <div class="nav-links">
+            <a href="products.html" class="active">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+   
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+
+              <ul class="circles">
+        <li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li>
+    </ul>
+
+            <h1>Premium Lechon in Cagayan de Oro</h1>
+            <p>Authentic, crispy, and flavorful lechon made with generations of expertise</p>
+            <div class="hero-buttons">
+                <a href="products.html" class="btn-primary">View Products</a>
+                <a href="#contact" class="btn-secondary">Inquire Now</a>
+            </div>
+    
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Gene's Lechon</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>For over 20 years, Gene's Lechon has been serving the best roasted pig in Northern Mindanao. Our secret family recipe and traditional cooking methods ensure every bite is perfectly crispy and flavorful.</p>
+                    <p>We use only the freshest local ingredients and follow strict quality standards to deliver authentic lechon experience for all occasions - from family gatherings to grand celebrations.</p>
+                </div>
+                <div class="about-image">
+                    <img src="ABOUTPAGE.jpg" alt="About Gene's Lechon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS SECTION -->
+    <section id="featured" class="menu">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <img src="gene" alt="lechon">
+                        <h3>Whole Lechon 18-20kg</h3>
+                        <span class="price-range">₱6,000</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <p>Serves 30-40 people. Pre-order required.</p>
+                        <button class="btn-primary add-to-inquiry" data-id="1" data-name="Whole Lechon 18-20kg" data-price="6000">Add to Inquiry</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Lechon Belly 5kg</h3>
+                        <span class="price-range">₱2,700</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <p>Serves 12-15 people. Juicy and crispy.</p>
+                        <button class="btn-primary add-to-inquiry" data-id="5" data-name="Lechon Belly 5kg" data-price="2700">Add to Inquiry</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Lechon Sauce 500ml</h3>
+                        <span class="price-range">₱120</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <p>Special lechon sauce, perfect for dipping.</p>
+                        <button class="btn-primary add-to-inquiry" data-id="7" data-name="Lechon Sauce 500ml" data-price="120">Add to Inquiry</button>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="products.html" class="btn-secondary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Location</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>123 Bulua, Cagayan de Oro City, Philippines</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+63 912 345 6789</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Sunday: 8:00 AM - 10:00 PM</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Pre-order Required</h3>
+                        <p>Whole lechon requires 24-hour advance order</p>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div id="map"></div>
+                    <div class="map-instructions">
+                        <p><i class="fas fa-info-circle"></i> Click on the map for directions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="GENE'S LOGO.jpg" alt="Gene's Lechon Logo" width="100" height="100">
+                    <h2>Gene's <span>Lechon</span></h2>
+                    <p>Authentic Roasted Pig Since 2003</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gene's Lechon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inquiry Cart -->
+    <div class="inquiry-cart" id="inquiryCart">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> Your Inquiry Cart</h3>
+            <button class="cart-close" id="cartClose"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+                <small>Add products from the menu</small>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">₱0</span>
+            </div>
+            <button class="btn-submit-inquiry" id="submitInquiryBtn">
+                <i class="fas fa-paper-plane"></i> Submit Inquiry
+            </button>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal -->
+    <div class="inquiry-modal" id="inquiryModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Complete Your Inquiry</h3>
+                <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="cart-summary" id="cartSummary"></div>
+                <form class="inquiry-form" id="inquiryForm">
+                    <div class="form-group">
+                        <label for="inquiryName">Full Name *</label>
+                        <input type="text" id="inquiryName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiryEmail">Email(optional) *</label>
+                        <input type="email" id="inquiryEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiryPhone">Phone</label>
+                        <input type="tel" id="inquiryPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiryMessage">Additional Message</label>
+                        <textarea id="inquiryMessage" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" id="cancelModal">Cancel</button>
+                <button class="btn-primary" type="submit" form="inquiryForm">Send Inquiry</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/inquiry.js"></script>
+</body>
+</html>
